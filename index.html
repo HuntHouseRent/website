@@ -1,0 +1,591 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hunthouse</title>
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+
+    <header class="header">
+        <nav class="navbar nav-1">
+      
+         <section class="flex">
+             <a herf="index.html" class="logo"><i class="fa fa-house" style="font-size:48px;color:red"></i>
+            </i>Hunt House</a>
+             
+      
+         </section>
+      </nav>
+      
+      <nav class="navbar nav-2">
+         <section class="flex">
+             <div id="menu-btn" class="fas fa-bars"></div>
+      
+             <div class="menu">
+              <ul>
+                 <li><a herf="#">Rent<i class="fas fa-angle-down"></i></a>
+                      <ul>
+      
+                 <li><a href="index.html">Home</a></li>
+                 <li><a href="listings.html">Property details</a></li>
+                 <li><a href="view_property.html">Veiw-Prpoerty</Veiw-Prpoerty></a></li>
+              </ul>
+              </li>
+      
+              <li><a herf="#">Property<i class="fas fa-angle-down"></i></a>
+                 <ul>
+                     
+                 <li><a href="search.html">Search property</a></li>
+                 <li><a href="portifolio.html">Testimonial</a></li>
+
+            
+            
+         </ul>
+         </li>
+      
+      
+         <li><a herf="#">Help<i class="fas fa-angle-down"></i></a>
+             <ul>
+       
+              <li><a href="about.html">About</a></li>
+              <li><a href="contact.html">Contact</a></li>
+              <li><a href="contact.html#fqa">FAQ</a></li>
+                  
+         
+             
+      <!-----
+        <li><a href="#">Material</a></li>
+        <li><a href="#">Shop</a></li>
+      </ul>
+      </li>-->
+      
+      
+              </ul>
+             </div>
+
+           
+        </li>
+
+
+      
+            <ul>
+                 <li><a href="search.html">Saved <i class="far fa-heart"></i></a></li>
+                 <li><a href="login.html">Account <i class="fas fa-angle-down"></i></a>
+                    
+               <ul>
+                 <li><a href="login.html">Login</a></li>
+                 <li><a href="register.html">Register</a></li>
+                 <li><a href="feedback.html">FeedBack</a></li>
+      
+               </ul>  
+                 </li>
+             </ul>
+           
+      
+         </section>
+      </nav>
+      
+      
+      </header>
+
+    <div class="home">
+        <section class="center">
+          <form action="#" method="post">
+
+                <h3>
+                    Find Your Perfect Property Location
+                </h3>
+                <div class="box">
+                    <p>Enter Location<span>*</span></p>
+                    <select name="bhk" class="input" required>
+                        <option value="1">All Location</option>
+
+                    
+
+
+
+
+                    </select>
+                </div>
+                <div class="flex">
+                    <div class="box">
+                        <p>Gender<span>*</span></p>
+                        <select name="type" class="input" required>
+                            <option value="flat">Boy</option>
+                            <option value="house">Girl</option>
+                        </select>
+                    </div>
+
+                    <div class="box">
+                        <p>Property Type<span>*</span></p>
+                        <select name="bhk" class="input" required>
+                            <option value="1">Rent</option>
+                            
+
+
+
+                        </select>
+                    </div>
+
+
+                   
+
+
+                    
+
+
+                </div>
+                <a href="location.html" class="btn">Location</a>
+
+              <!----  <input type="submit" value="Available Scarp" name="search" class="btn">
+              -->   </form>
+        </section>
+    </div>
+
+
+    <!------------------------------------------------column-------------------------------------------------->    
+
+
+    <div class="columns">
+        <style>
+            * {
+              box-sizing: border-box;
+            }
+            
+            .columns {
+              float: left;
+              width: 33.3%;
+              padding: 8px;
+            }
+            
+            .price {
+              list-style-type: none;
+              border: 1px solid #eee;
+              margin: 0;
+              padding: 0;
+              -webkit-transition: 0.3s;
+              transition: 0.3s;
+            }
+            
+            .price:hover {
+              box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+            }
+            
+            .price .header {
+              background-color: orangered;
+              color: black;
+              font-size: 25px;
+          
+            }
+            
+            .price li {
+              border-bottom: 1px solid #fff;
+              padding: 20px;
+              text-align: center;
+              background-color: whitesmoke;
+              color: black;
+            }
+            
+            .price .grey {
+              background-color: orangered;
+              font-size: 20px;
+            }
+            
+            .button {
+              background-color: white;
+              border: none;
+              color: black;
+              padding: 10px 25px;
+              text-align: center;
+              text-decoration: none;
+              font-size: 18px;
+            }
+            
+            @media only screen and (max-width: 600px) {
+              .columns {
+                width: 100%;
+              }
+            }
+            </style>
+        <ul class="price">
+          <li class="header">About</li>
+          <li style="font-size: 20px;">Services Go to Online.</li>
+          
+          <li class="grey"><a href="about.html" class="button">See</a></li>
+        </ul>
+      </div>
+      
+      <div class="columns">
+        <ul class="price">
+          <li class="header" style="background-color: orangered">Agreement</li>
+      
+          <li style="font-size: 20px;">Your Money is Safer With Us.</li>
+          
+          <li class="grey" style="background-color: orangered"><a href="./agreement form pdf.jpg" class="button" download='mobile'><i class="fa fa-download" style="font-size:15px;">Download</button></i>
+              </a></li>
+        </ul>
+      </div>
+      
+      <div class="columns">
+        <ul class="price">
+          <li class="header">Contact Us</li>
+         
+          <li style="font-size: 20px;">Contact for more details.</li>
+          
+          <li class="grey"><a href="contact.html" class="button">See</a></li>
+        </ul>
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section class="services">
+
+    <h1 class="heading">Our Services</h1>
+
+    <div class="box-container">
+
+       
+        <div class="box">
+            <img src="image/logo.jpg" alt="">
+            <h3>Renting a home</h3>
+            <p>
+                Renting a home  apartments, builder floors, villas and more, this are the renting house.
+                </p>
+
+        </div>
+
+        <div class="box">
+            <img src="image/logo rent.jpg" alt="">
+            <h3>Leasing a commercial property</h3>
+            <p>
+                Shops, offices, land, factories, warehouses and more.
+                </p>
+
+        </div>
+
+        <div class="box">
+            <img src="image/logo 2.webp" alt="">
+            <h3>PG and co-living</h3>
+            <p>
+                Organised,owner and broker listed PGs, for girls and boys both are available.
+            </p>
+
+        </div>
+
+        <div class="box">
+            <img src="image/logo1.webp" alt="">
+            <h3>Plots/Land</h3>
+            <p>
+                Residential Plots, Inst. Land and more, dealing min for 1 month and max 11 months time period is there with agreement bases.
+                </p>
+        </div>
+
+        <div class="box">
+            <img src="image/right price logo.jpg" alt="">
+            <h3>Right Price & Right Scrap</h3>
+            <p>Don't settle for low prices because you just want your property clean. Get the right price for the right property.</p>
+        </div>
+
+        <div class="box">
+            <img src="image/telephonic logo.png" alt="">
+            <h3>24/7 Service</h3>
+            <p>Schedule a pickup at your convenience(24/7service). Ensure timely Property removal from your home or office.</p>
+        </div>
+
+
+
+    </div>
+</section>
+
+
+
+
+    
+
+
+
+
+
+
+
+    
+<section class="listings">
+
+    <h1 class="heading">Property</h1>
+
+    <div class="box-container">
+
+       
+        <div class="box">
+           
+            <div class="thumb">
+                <p class="total-images"><i class="far fa-image"></i><span>1</span></p>
+                <p class="type"><span>Rent</span><span>Detail</span></p>
+                <form action="" method="post" class="save">
+                    <button type="submit" name="save" class="far fa-heart"></button>
+                </form>
+                <img src="image/room 1.webp" alt="">
+
+            </div>
+            <h3 class="name">Property</h3>
+            <p class="location"><i class="fas fa-map-marker-alt"></i><span>Kanpur, India</span></p>
+            <div class="flex">
+                  <p><i class="fas fa-maximize"></i><span>$6000  - per month</span></p>
+
+            </div>
+            <a href="v5.html" class="btn">View Property</a>
+
+        </div>
+
+        <div class="box">
+           
+            <div class="thumb">
+                <p class="total-images"><i class="far fa-image"></i><span>2</span></p>
+                <p class="type"><span>Rent</span><span>Detail</span></p>
+                <form action="" method="post" class="save">
+                    <button type="submit" name="save" class="far fa-heart"></button>
+                </form>
+                <img src="image/room 2.jpeg" alt="">
+
+            </div>
+            <h3 class="name">Property</h3>
+            <p class="location"><i class="fas fa-map-marker-alt"></i><span>Lucknow, India</span></p>
+            <div class="flex">
+                  <p><i class="fas fa-maximize"></i><span>$8000  - per month</span></p>
+
+            </div>
+            <a href="v2.html" class="btn">View Property</a>
+
+        </div>
+
+        <div class="box">
+           
+            <div class="thumb">
+                <p class="total-images"><i class="far fa-image"></i><span>3</span></p>
+                <p class="type"><span>Rent</span><span>Detail</span></p>
+                <form action="" method="post" class="save">
+                    <button type="submit" name="save" class="far fa-heart"></button>
+                </form>
+                <img src="image/room 3.jpeg" alt="">
+
+            </div>
+            <h3 class="name">Property</h3>
+            <p class="location"><i class="fas fa-map-marker-alt"></i><span>Delhi, India</span></p>
+            <div class="flex">
+                  <p><i class="fas fa-maximize"></i><span>$10000  - per month</span></p>
+
+            </div>
+            <a href="v1.html" class="btn">View Property</a>
+
+        </div>
+
+
+        <div class="box">
+           
+            <div class="thumb">
+                <p class="total-images"><i class="far fa-image"></i><span>4</span></p>
+                <p class="type"><span>Rent</span><span>Detail</span></p>
+                <form action="" method="post" class="save">
+                    <button type="submit" name="save" class="far fa-heart"></button>
+                </form>
+                <img src="image/g pg 4.jpeg" alt="">
+
+            </div>
+            <h3 class="name">Property</h3>
+            <p class="location"><i class="fas fa-map-marker-alt"></i><span>Mumbai, India</span></p>
+            <div class="flex">
+                  <p><i class="fas fa-maximize"></i><span>$12000  - per month</span></p>
+
+            </div>
+            <a href="v3.html" class="btn">View Property</a>
+
+        </div>
+
+        <div class="box">
+           
+            <div class="thumb">
+                <p class="total-images"><i class="far fa-image"></i><span>5</span></p>
+                <p class="type"><span>Rent</span><span>Detail</span></p>
+                <form action="" method="post" class="save">
+                    <button type="submit" name="save" class="far fa-heart"></button>
+                </form>
+                <img src="image/boys pg 5.jpg" alt="">
+
+            </div>
+            <h3 class="name">Property</h3>
+            <p class="location"><i class="fas fa-map-marker-alt"></i><span>Noida, India</span></p>
+            <div class="flex">
+                  <p><i class="fas fa-maximize"></i><span>$7000  - per month</span></p>
+
+            </div>
+            <a href="v4.html" class="btn">View Property</a>
+
+        </div>
+
+        <div class="box">
+           
+            <div class="thumb">
+                <p class="total-images"><i class="far fa-image"></i><span>6</span></p>
+                <p class="type"><span>Rent</span><span>Detail</span></p>
+                <form action="" method="post" class="save">
+                    <button type="submit" name="save" class="far fa-heart"></button>
+                </form>
+                <img src="image/pg 3 g.jpeg" alt="">
+
+            </div>
+            <h3 class="name">Property</h3>
+            <p class="location"><i class="fas fa-map-marker-alt"></i><span>Kolkata, India</span></p>
+            <div class="flex">
+                  <p><i class="fas fa-maximize"></i><span>$14000  - per month</span></p>
+
+            </div>
+            <a href="v6.html" class="btn">View Property</a>
+
+        </div>
+
+    </div>
+
+
+ <!--------------------------------view all ----------------------------------->
+
+
+    
+    <div style="margin-top: 2rem; text-align:center;">
+        <a href="listings.html" class="inline-btn">View All</a>
+     </div>
+
+
+
+
+
+
+
+
+
+
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<footer class="footer">
+    <section class="flex">
+        <div class="box">
+            <a href="#"><i class="fas fa-phone"></i><span>8887606389</span></a>
+            <a href="mailto:hunthouserent@gmail.com"><i class="fas fa-envelope"></i><span>hunthouserent@gmail.com</span></a>
+            <a href="#"><i class="fas fa-map-marker-alt"></i><span>Kanpur, India</span></a>
+
+        </div>
+
+        <div class="box">
+            <a href="index.html"><span>Home</span></a>
+            <a href="about.html"><span>About</span></a>
+            <a href="contact.html"><span>Contact</span></a>
+            <a href="listings.html"><span>All Listings</span></a>
+            <a href="search.html"><span>Saved Property</span></a>
+
+        </div>
+
+        <div class="box">
+            <a href="https://www.facebook.com/sachinkushwaha88876?mibextid=ZbWKwL"><span>Facebook</span><i class="fab fa-facebook-f"></i></a>
+            <a href="https://x.com/sachin888760638?t=9LvO7H4oC2Erhgr3NI5eEQ&s=08"><span>Twitter</span><i class="fab fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/in/sachin-kushwaha8887?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><span>Linkedin</span><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/s_a_c_h_i_n_kushwaha_?igsh=bDlqZnMzejl1YmEy"><span>Instagram</span><i class="fab fa-instagram"></i></a>
+            <a href="https://youtube.com/@techstackfacts9287?si=MmhSm9iICgGmW7wK"><span>Youtube</span><i class='fab fa-youtube'></i></a>
+
+
+        </div>
+    </section>
+
+    <div class="credit">&copy; copyright @ 2024 by <span>HuntHouse</span>| all rights reserved</div>
+</footer>
+
+
+
+
+
+
+
+
+    <script src="js/script.js"></script>
+
+    <script>
+
+      let menu = document.querySelector('.header .menu');
+
+         document.querySelector('#menu-btn').onclick = () =>{
+          menu.classList.toggle('active');
+        }
+
+      window.onscroll = () =>{
+       menu.classList.remove('active');
+       }
+
+      document.querySelectorAll('.view-property .details .thumb .small-images img').forEach(images =>{
+       images.onclick = () =>{
+          src = images.getAttribute('src');
+          document.querySelector('.view-property .details .thumb .big-image img').src = src;
+       }
+     });
+    </script>
+
+    
+
+    
+    
+</body>
+</html>
+
