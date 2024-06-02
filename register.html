@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,106 +9,102 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 
     <link rel="stylesheet" href="css/style.css">
-
 </head>
-
 <body>
 
     <header class="header">
         <nav class="navbar nav-1">
-
-            <section class="flex">
-                <a href="index.html" class="logo"><i class="fa fa-house" style="font-size:48px;color:red"></i>
-                    </i>Hunt House</a>
-
-
-            </section>
-        </nav>
-
-        <nav class="navbar nav-2">
-            <section class="flex">
-                <div id="menu-btn" class="fas fa-bars"></div>
-
-                <div class="menu">
-                    <ul>
-                        <li><a href="#">Rent<i class="fas fa-angle-down"></i></a>
-                            <ul>
-
-                                <li id="index"><a href="index.html">Home</a></li>
-                                <li><a href="listings.html">Property details</a></li>
-                                <li><a href="view_property.html">Veiw-Prpoerty</Veiw-Prpoerty></a></li>
-                            </ul>
-                        </li>
-
-                        <li><a herf="#">Property<i class="fas fa-angle-down"></i></a>
-                            <ul>
-
-                                <li><a href="search.html">Search property</a></li>
-                                <li><a href="portifolio.html">Testimonial</a></li>
-
-
-
-                            </ul>
-                        </li>
-
-
-                        <li><a herf="#">Help<i class="fas fa-angle-down"></i></a>
-                            <ul>
-
-                                <li><a href="about.html">About</a></li>
-                                <li><a href="contact.html">Contact</a></li>
-                                <li><a href="contact.html#fqa">FAQ</a></li>
-
-
-
-                                <!-----
+      
+         <section class="flex">
+             <a herf="index.html" class="logo"><i class="fa fa-house" style="font-size:48px;color:red"></i>
+            </i>Hunt House</a>
+             
+      
+         </section>
+      </nav>
+      
+      <nav class="navbar nav-2">
+         <section class="flex">
+             <div id="menu-btn" class="fas fa-bars"></div>
+      
+             <div class="menu">
+              <ul>
+                 <li><a herf="#">Rent<i class="fas fa-angle-down"></i></a>
+                      <ul>
+      
+                 <li><a href="index.html">Home</a></li>
+                 <li><a href="listings.html">Property details</a></li>
+                 <li><a href="view_property.html">Veiw-Prpoerty</Veiw-Prpoerty></a></li>
+              </ul>
+              </li>
+      
+              <li><a herf="#">Property<i class="fas fa-angle-down"></i></a>
+                 <ul>
+                     
+                 <li><a href="search.html">Search property</a></li>
+                 <li><a href="portifolio.html">Testimonial</a></li>
+    
+            
+            
+         </ul>
+         </li>
+      
+      
+         <li><a herf="#">Help<i class="fas fa-angle-down"></i></a>
+             <ul>
+       
+              <li><a href="about.html">About</a></li>
+              <li><a href="contact.html">Contact</a></li>
+              <li><a href="contact.html#fqa">FAQ</a></li>
+                  
+         
+             
+      <!-----
         <li><a href="#">Material</a></li>
         <li><a href="#">Shop</a></li>
       </ul>
       </li>-->
-
-
-                            </ul>
-                </div>
-
-
-                </li>
-
-
-
-                <ul>
-                    <li><a href="search.html">Saved <i class="far fa-heart"></i></a></li>
-                    <li><a href="#">Account <i class="fas fa-angle-down"></i></a>
-                        <ul>
-                            <li class="account"><a href="login.html">Login</a></li>
-                            <li class="account"><a href="register.html">Register</a></li>
-                            <li class="account"><a href="feedback.html">FeedBack</a></li>
-
-                            <li class="account" style="display: none;"><a href="index.html">User</a></li>
-                            <li class="account" style="display: none;" onclick="userLogout()"><a href="index.html">Log Out</a></li>
-                        </ul>
-                    </li>
-                </ul>
-
-
-            </section>
-        </nav>
-
-
-    </header>
+      
+      
+              </ul>
+             </div>
+    
+           
+        </li>
+    
+    
+      
+            <ul>
+                 <li><a href="search.html">Saved <i class="far fa-heart"></i></a></li>
+                 <li><a href="login.html">Account <i class="fas fa-angle-down"></i></a>
+               <ul>
+                 <li><a href="login.html">Login</a></li>
+                 <li><a href="register.html">Register</a></li>
+                 <li><a href="feedback.html">FeedBack</a></li>
+      
+               </ul>  
+                 </li>
+             </ul>
+           
+      
+         </section>
+      </nav>
+      
+      
+      </header>
     <section class="form-container">
 
-        <form> <!--action="https://api.web3forms.com/submit"-->
+        <form action="https://api.web3forms.com/submit" method="POST">
 
             <h3>Create an account!</h3>
-            <input type="hidden" name="access_key" value="9b732c80-c73f-4f12-8a51-230111a3fb6a">
+            <input type="hidden" name="access_key" value="9b732c80-c73f-4f12-8a51-230111a3fb6a">    
 
-            <input type="text" id="name" name="name" required placeholder="Enter your name" class="box">
+            <input type="text" name="name" required placeholder="Enter your name" class="box">
 
-            <input type="email" id="email" name="email" required placeholder="Enter your email" class="box">
-
-            <input type="password" id="pass" name="pass" required placeholder="Enter your password" class="box">
-            <input type="password" id="c_pass" name="c_pass" required placeholder="Confirm your password" class="box">
+            <input type="email" name="email" required  placeholder="Enter your email" class="box">
+            
+            <input type="password" name="pass" required  placeholder="Enter your password" class="box">
+            <input type="password" name="c_pass" required  placeholder="Confirm your password" class="box">
             <input type="hidden" name="_captcha" value="false">
 
             <p>Already have an account? <a href="login.html">Login Now</a></p>
@@ -117,48 +112,56 @@
 
         </form>
 
+
+
+        
+
+
+
+
+
     </section>
 
 
 
-    <footer class="footer">
-        <section class="flex">
-            <div class="box">
-                <a href="#"><i class="fas fa-phone"></i><span>8887606389</span></a>
-                <a href="mailto:hunthouserent@gmail.com"><i
-                        class="fas fa-envelope"></i><span>hunthouserent@gmail.com</span></a>
-                <a href="#"><i class="fas fa-map-marker-alt"></i><span>Kanpur, India</span></a>
-
-            </div>
-
-            <div class="box">
-                <a href="index.html"><span>Home</span></a>
-                <a href="about.html"><span>About</span></a>
-                <a href="contact.html"><span>Contact</span></a>
-                <a href="listings.html"><span>All Listings</span></a>
-                <a href="search.html"><span>Saved Property</span></a>
-
-            </div>
-
-            <div class="box">
-                <a href="https://www.facebook.com/sachinkushwaha88876?mibextid=ZbWKwL"><span>Facebook</span><i
-                        class="fab fa-facebook-f"></i></a>
-                <a href="https://x.com/sachin888760638?t=9LvO7H4oC2Erhgr3NI5eEQ&s=08"><span>Twitter</span><i
-                        class="fab fa-twitter"></i></a>
-                <a
-                    href="https://www.linkedin.com/in/sachin-kushwaha8887?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><span>Linkedin</span><i
-                        class="fab fa-linkedin"></i></a>
-                <a href="https://www.instagram.com/s_a_c_h_i_n_kushwaha_?igsh=bDlqZnMzejl1YmEy"><span>Instagram</span><i
-                        class="fab fa-instagram"></i></a>
-                <a href="https://youtube.com/@techstackfacts9287?si=MmhSm9iICgGmW7wK"><span>Youtube</span><i
-                        class='fab fa-youtube'></i></a>
 
 
-            </div>
-        </section>
 
-        <div class="credit">&copy; copyright @ 2024 by <span>HuntHouse</span>| all rights reserved</div>
-    </footer>
+
+
+
+ 
+<footer class="footer">
+    <section class="flex">
+        <div class="box">
+            <a href="#"><i class="fas fa-phone"></i><span>8887606389</span></a>
+            <a href="mailto:hunthouserent@gmail.com"><i class="fas fa-envelope"></i><span>hunthouserent@gmail.com</span></a>
+            <a href="#"><i class="fas fa-map-marker-alt"></i><span>Kanpur, India</span></a>
+
+        </div>
+
+        <div class="box">
+            <a href="index.html"><span>Home</span></a>
+            <a href="about.html"><span>About</span></a>
+            <a href="contact.html"><span>Contact</span></a>
+            <a href="listings.html"><span>All Listings</span></a>
+            <a href="search.html"><span>Saved Property</span></a>
+
+        </div>
+
+        <div class="box">
+            <a href="https://www.facebook.com/sachinkushwaha88876?mibextid=ZbWKwL"><span>Facebook</span><i class="fab fa-facebook-f"></i></a>
+            <a href="https://x.com/sachin888760638?t=9LvO7H4oC2Erhgr3NI5eEQ&s=08"><span>Twitter</span><i class="fab fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/in/sachin-kushwaha8887?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><span>Linkedin</span><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/s_a_c_h_i_n_kushwaha_?igsh=bDlqZnMzejl1YmEy"><span>Instagram</span><i class="fab fa-instagram"></i></a>
+            <a href="https://youtube.com/@techstackfacts9287?si=MmhSm9iICgGmW7wK"><span>Youtube</span><i class='fab fa-youtube'></i></a>
+
+
+        </div>
+    </section>
+
+    <div class="credit">&copy; copyright @ 2024 by <span>HuntHouse</span>| all rights reserved</div>
+</footer>
 
 
 
@@ -167,74 +170,39 @@
 
 
     <script src="js/script.js"></script>
-    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 
     <script>
 
         let menu = document.querySelector('.header .menu');
-
-        document.querySelector('#menu-btn').onclick = () => {
+  
+           document.querySelector('#menu-btn').onclick = () =>{
             menu.classList.toggle('active');
-        }
+          }
+  
+        window.onscroll = () =>{
+         menu.classList.remove('active');
+         }
+  
+        document.querySelectorAll('.view-property .details .thumb .small-images img').forEach(images =>{
+         images.onclick = () =>{
+            src = images.getAttribute('src');
+            document.querySelector('.view-property .details .thumb .big-image img').src = src;
+         }
+       });
+      </script>
 
-        window.onscroll = () => {
-            menu.classList.remove('active');
-        }
-
-        document.querySelectorAll('.view-property .details .thumb .small-images img').forEach(images => {
-            images.onclick = () => {
-                src = images.getAttribute('src');
-                document.querySelector('.view-property .details .thumb .big-image img').src = src;
-            }
-        });
-
-        const regForm = document.querySelector("form");
-        regForm.addEventListener("submit", (e) => {
-            const name = document.getElementById("name").value;
-            const email = document.getElementById("email").value;
-            const pass = document.getElementById("pass").value;
-            const c_pass = document.getElementById("c_pass").value;
-
-            const allUserData = [];
-            if (localStorage.getItem("allUserData") !== null) {
-                JSON.parse(localStorage.getItem("allUserData")).forEach(element => {
-                    allUserData.push(element);
-                });
-            }
-            let isValidEmail = true;
-            for (let i = 0; i < allUserData.length; i++) {
-                if (allUserData[i].email == email) {
-                    isValidEmail = false;
-                    break;
-                }
-            }
-
-            if (pass == c_pass) {
-                if (isValidEmail) {
-                    const userObj = {
-                        username: name,
-                        email: email,
-                        password: pass
-                    }
-                    allUserData.push(userObj);
-                    localStorage.setItem("allUserData", JSON.stringify(allUserData));
-                    swal("", "Registration successful!", "success");
-                    e.preventDefault();
-                    regForm.reset();
-                } else {
-                    swal("", "Email already exist!", "warning");
-                    e.preventDefault();
-                }
-            } else {
-                swal("", "Password and confirm password should be same.", "warning");
-                e.preventDefault();
-            }
-        });
-
-    </script>
-
-
-
+    
+    
 </body>
-
 </html>
+
+
+
+
+
+
+
+
+
+
+
